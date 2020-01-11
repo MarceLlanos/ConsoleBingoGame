@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBingoGame", "ConsoleBingoGame\ConsoleBingoGame.csproj", "{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

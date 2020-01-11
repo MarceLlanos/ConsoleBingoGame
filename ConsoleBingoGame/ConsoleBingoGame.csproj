@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{8FAE4A03-E5D1-4364-B1EE-BC04C23DC333}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleBingoGame</RootNamespace>
+    <AssemblyName>ConsoleBingoGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BingoRangeDictionaryFiller.cs" />
+    <Compile Include="BlankSpaceInjectorFactory.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="CardData.cs" />
+    <Compile Include="CardDataFactory.cs" />
+    <Compile Include="CardFactory.cs" />
+    <Compile Include="CardPackage.cs" />
+    <Compile Include="CardPrototype.cs" />
+    <Compile Include="CardPrototypeFactory.cs" />
+    <Compile Include="CardSpacesFiller.cs" />
+    <Compile Include="ColumnRangeGetter.cs" />
+    <Compile Include="DataFiller.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GameDataFactory.cs" />
+    <Compile Include="GameDataSetting.cs" />
+    <Compile Include="GameSettingFactory.cs" />
+    <Compile Include="HousieRangeDictionaryFiller.cs" />
+    <Compile Include="IBlankSpaceInjectorFactory.cs" />
+    <Compile Include="ICard.cs" />
+    <Compile Include="ICardData.cs" />
+    <Compile Include="ICardDataFactory.cs" />
+    <Compile Include="ICardFactory.cs" />
+    <Compile Include="ICardPackage.cs" />
+    <Compile Include="ICardPrototype.cs" />
+    <Compile Include="ICardPrototypeFactory.cs" />
+    <Compile Include="IColumnRangeGetter.cs" />
+    <Compile Include="IDataFiller.cs" />
+    <Compile Include="IGameData.cs" />
+    <Compile Include="IGameDataFactory.cs" />
+    <Compile Include="IGameDataSetting.cs" />
+    <Compile Include="IGameSettingFactory.cs" />
+    <Compile Include="IRandomNumbersGenerator.cs" />
+    <Compile Include="IRange.cs" />
+    <Compile Include="IRangeDictionary.cs" />
+    <Compile Include="IRangeDictionaryFactory.cs" />
+    <Compile Include="IRangeDictionaryFiller.cs" />
+    <Compile Include="ISpaceInjector.cs" />
+    <Compile Include="IVerifierRepetedCards.cs" />
+    <Compile Include="MiddleBlankSpaceInjector.cs" />
+    <Compile Include="RandomNumbersGenerator.cs" />
+    <Compile Include="RandomSpacesInjector.cs" />
+    <Compile Include="Range.cs" />
+    <Compile Include="RangeDictionary.cs" />
+    <Compile Include="RangeDictionaryFactory.cs" />
+    <Compile Include="VerifierRepeatedCards.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

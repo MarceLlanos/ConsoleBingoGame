@@ -1,0 +1,5 @@
+/Users/Marcela/Projects/ConsoleBingoGame/ConsoleBingoGame/obj/Debug/ConsoleBingoGame.csprojAssemblyReference.cache
+/Users/Marcela/Projects/ConsoleBingoGame/ConsoleBingoGame/bin/Debug/ConsoleBingoGame.exe
+/Users/Marcela/Projects/ConsoleBingoGame/ConsoleBingoGame/bin/Debug/ConsoleBingoGame.pdb
+/Users/Marcela/Projects/ConsoleBingoGame/ConsoleBingoGame/obj/Debug/ConsoleBingoGame.exe
+/Users/Marcela/Projects/ConsoleBingoGame/ConsoleBingoGame/obj/Debug/ConsoleBingoGame.pdb
